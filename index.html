@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detox dal Social Media</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #007BB8 30%, #08457E 70%);
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            background: -webkit-linear-gradient(#fff, #E5BE01);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .circle-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-size: cover;
+        }
+        .circle:hover {
+            transform: scale(1.1);
+        }
+        #circle1 {
+            background-image: url('cartoonsgrinzi.jpeg');
+        }
+        #circle2 {
+            background-image: url('cartoon.jpeg');
+        }
+        .name {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #E5BE01;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Benvenuto, siamo contenti che tu voglia sapere di più sul detox dal social media.</h1>
+        <p>Scegli la pagina di chi vuoi leggere per prima.</p>
+        <div class="circle-container">
+            <a href="pagina1.html">
+                <div id="circle1" class="circle"></div>
+                <div class="name">Andrea Sgrinzi</div>
+            </a>
+            <a href="pagina2.html">
+                <div id="circle2" class="circle"></div>
+                <div class="name">Maria-Alexandra Nicolae</div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
